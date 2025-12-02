@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    color: white !important;
+    background-color: #3c79c9 !important;
+    box-shadow: 4px 4px 9px #384ba198, -6px -6px 9px #ffffffe1;
+    transition: box-shadow 1s ease;
+}
+
+li:hover{
+    box-shadow: none;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #e0e0e0;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.contenedor {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    border-radius: 30px;
+    overflow: hidden;
+background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+                }
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+    padding: 10% 10%;
+}
+
+.perfil {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 20px;
+    border-radius: 80%;
+    overflow: hidden;
+    box-shadow: 10px 10px 20px #22409173, -11px -11px 10px #ffffff;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nombre {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #2d3748;
+}
+
+.titulo {
+    font-size: 1.1em;
+    color: #718096;
+    font-weight: 400;
+}
+
+.bloque {
+    margin-bottom: 80px;
+    padding: 20px;
+    border-radius: 20px;
+background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebebd, -15px -15px 30px #ffffff;
+}
+
+.bloque h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #4a5568;
+    font-weight: 600;
+}
+
+.info-personal .dato {
+    margin-bottom: 18px;
+}
+
+.label {
+    display: block;
+    font-size: 0.85em;
+    color: #667eea;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.info-personal p {
+    font-size: 0.95em;
+    color: #4a5568;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.link-contacto {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #4a5568;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 12px;
+    background: #e0e0e0;
+box-shadow:  6px 6px 9px #cacaca,
+             -6px -6px 9px #f3f3f3a6;
+    transition: all 0.3s ease;
+}
+
+.link-contacto:hover {
+    box-shadow:none;
+    background-color: #dddddd;
+}
+
+.icono {
+    width: 24px;
+    height: 24px;
+    opacity: 0.7;
+}
+
+.link-contacto span {
+    font-size: 0.9em;
+}
+
+.lista {
+    list-style: none;
+}
+
+.lista li {
+    padding: 12px;
+    margin-bottom: 20px;
+    position: relative;
+    font-size: 0.95em;
+    color: #4a5568;
+    border-radius: 10px;
+    background: #e0e0e0;
+}
+
+.idioma {
+    margin-bottom: 20px;
+}
+
+.idioma-nombre {
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-size: 1.05em;
+    color: #2d3748;
+}
+
+
+
+.progreso {
+    height: 100%;
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    border-radius: 10px;
+    transition: width 1s ease;
+}
+
+.nivel {
+    font-size: 0.9em;
+}
+
+.certificado {
+    font-size: 0.85em;
+    color: #a0aec0;
+    margin-top: 5px;
+    border-radius: 5px;
+    color: white !important;
+    background-color: #3c79c9 !important;
+    box-shadow: 4px 4px 9px #384ba198, -6px -6px 9px #ffffffe1;
+    transition: box-shadow 1s ease;
+    padding: 10px;
+}
+
+.certificado:hover{
+    box-shadow: none;
+}
+
+.contenido {
+    padding: 50px 60px;
+    background: #e0e0e0;
+
+}
+
+.seccion {
+    margin-bottom: 50px;
+
+}
+
+.titulo-seccion {
+    font-size: 2.5em;
+    color: #2d3748;
+    margin-bottom: 30px;
+    position: relative;
+    padding: 20px;
+    border-radius: 15px;
+    border-radius: 10px;
+
+}
+
+.tecnologias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+}
+
+.categoria-tech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #e0e5ec;
+    padding: 25px;
+    padding-bottom: 10px;
+    border-radius: 60px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+}
+
+.categoria-tech:hover {
+    box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+}
+
+.categoria-tech h3 {
+    color: #2d3748;
+    margin-bottom: 15px;
+    font-size: 1.15em;
+    font-weight: 600;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5x;
+    gap: 10px;
+}
+
+.tag {
+    background: #3c79c9;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: 600;
+    border-radius: 60px;
+box-shadow:  4px 4px 9px #384ba198,
+             -6px -6px 9px #ffffffe1;
+             transition: box-shadow 1s ease;
+}
+
+.tag:hover {
+    box-shadow: none;
+
+}
+
+.fecha-badge {
+    display: inline-block;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-size: 0.75em;
+    font-weight: 600;
+    margin-bottom: 15px;
+    border-radius: 60px;
+    background: #3c79c9;
+    box-shadow: 4px 4px 9px #384ba198, -6px -6px 9px #ffffffe1;
+    transition: box-shadow 1s ease;
+}
+
+.fecha-badge:hover {
+    box-shadow: none;
+}
+
+.contenido-timeline {
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 3rem;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+}
+
+.contenido-timeline h3 {
+    color: #2d3748;
+    font-size: 1.3em;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.rol {
+    color: #4a5568;
+    font-style: italic;
+    margin-bottom: 8px;
+    font-size: 1em;
+}
+
+.descripcion {
+    color: #718096;
+    font-size: 0.95em;
+    line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+    .contenedor {
+        grid-template-columns: 1fr;
+    }
+    
+    .sidebar {
+        padding: 30px 25px;
+        border-right: none;
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+    
+    .contenido {
+        padding: 40px 30px;
+    }
+    
+    .tecnologias {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 20px 10px;
+    }
+    
+    .contenedor {
+        border-radius: 20px;
+    }
+    
+    .foto {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .nombre {
+        font-size: 1.5em;
+    }
+    
+    .contenido {
+        padding: 30px 20px;
+    }
+    
+    .titulo-seccion {
+        font-size: 1.6em;
+    }
+    
+    .tecnologias {
+        grid-template-columns: 1fr;
+    }
+}
