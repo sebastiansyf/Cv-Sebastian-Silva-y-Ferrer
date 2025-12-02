@@ -9,6 +9,10 @@ li{
     background-color: #3c79c9 !important;
     box-shadow: 4px 4px 9px #384ba198, -6px -6px 9px #ffffffe1;
     transition: box-shadow 1s ease;
+    user-select: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none;    
+    -ms-user-select: none;  
 }
 
 li:hover{
@@ -125,7 +129,7 @@ background: #e0e0e0;
     background: #e0e0e0;
 box-shadow:  6px 6px 9px #cacaca,
              -6px -6px 9px #f3f3f3a6;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 .link-contacto:hover {
@@ -188,9 +192,14 @@ box-shadow:  6px 6px 9px #cacaca,
     border-radius: 5px;
     color: white !important;
     background-color: #3c79c9 !important;
-    box-shadow: 4px 4px 9px #384ba198, -6px -6px 9px #ffffffe1;
+    box-shadow: 4px 4px 9px #384ba198, 
+                -8px -8px 9px #ffffff;
     transition: box-shadow 1s ease;
     padding: 10px;
+    user-select: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none;    
+    -ms-user-select: none;  
 }
 
 .certificado:hover{
@@ -254,6 +263,10 @@ box-shadow:  6px 6px 9px #cacaca,
     flex-wrap: wrap;
     padding: 5x;
     gap: 10px;
+    user-select: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none;    
+    -ms-user-select: none;     
 }
 
 .tag {
@@ -286,6 +299,10 @@ box-shadow:  4px 4px 9px #384ba198,
     background: #3c79c9;
     box-shadow: 4px 4px 9px #384ba198, -6px -6px 9px #ffffffe1;
     transition: box-shadow 1s ease;
+    user-select: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none;    
+    -ms-user-select: none;   
 }
 
 .fecha-badge:hover {
